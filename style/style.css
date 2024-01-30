@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo_name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-size: 25px;
+    color: black;
+}
+
+.logo_boolean {
+    vertical-align: middle;
+}
+
+.header_margin {
+    margin-bottom: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.task_button {
+    background-color: #47ADF1;
+    color: white;
+    border-radius: 4px;
+    padding: 7px;
+    border: none;
+}
+
+.section_button {
+    background-color: white;
+    color: #C5CBD0;
+    border-radius: 4px;
+    padding: 7px;
+    margin-left: 5px;
+    border-color: #C5CBD0;
+}
+
+hr {
+    border-bottom-color: #F5F7F8;
+    margin-bottom: 25px;
+}
+
+.button_margin {
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.purple_button {
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 4px;
+    padding: 7px;
+    border: none;
+}
+
+.list_section {
+    margin-bottom: 25px;
+}
