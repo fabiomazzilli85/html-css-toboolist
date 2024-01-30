@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F6F8F9;
+    font-family: 'Roboto', sans-serif;
+}
+
 .logo_name {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:700;
@@ -16,13 +21,24 @@
 }
 
 .header_margin {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.header_background {
+    background-color: white;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1024px;
 }
+
+.background_container {
+    padding: 25px;
+    background-color: white;
+}
+
 
 .task_button {
     background-color: #47ADF1;
@@ -34,11 +50,10 @@
 
 .section_button {
     background-color: white;
-    color: #C5CBD0;
+    color: grey;
     border-radius: 4px;
     padding: 7px;
     margin-left: 5px;
-    border-color: #C5CBD0;
 }
 
 hr {
@@ -55,14 +70,38 @@ li {
     line-height: 40px;
 }
 
-.purple_button {
-    background-color: #9C72E4;
-    color: white;
-    border-radius: 4px;
-    padding: 7px;
-    border: none;
-}
-
 .list_section {
     margin-bottom: 25px;
+}
+
+button {
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    margin-left: 6px;
+}
+
+.blu_button {
+    background-color: #45ABE9 ;
+}
+
+.purple_button {
+    background-color: #9C72E4;
+}
+
+.green_button {
+    background-color: #64C0A8;
+}
+
+.orange_button {
+    background-color: #F29D33;
+}
+
+.pink_button {
+    background-color: #D863A0;
+}
+
+.lime_button {
+    background-color: #B0C926;
 }
