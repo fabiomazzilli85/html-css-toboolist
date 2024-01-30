@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Toboolist</title>
 </head>
 <body>
     
+    <!-- Qui inizia l'intestazione -->
     <header>
-        <div class="header_margin"></div>
-        <img class="logo_boolean" src="./img/logo_copia.png" alt="Logo Boolean">
-        <span class="logo_name">Toboolist</span>
+        <div class="header_margin header_background">
+            <img class="logo_boolean" src="./img/logo_copia.png" alt="Logo Boolean">
+            <span class="logo_name">Toboolist</span>
+        </div>
     </header>
 
+    <!-- Qui inizia la parte princpale della pagina HTML -->
     <main>
-        <div class="container">
+        <div class="container background_container"> 
+    <!-- A questo <div> ho assegnato due classi, tra cui "container", che abbiamo visto oggi a lezione.  -->
+            
             <div class="button_margin">
                 <button class="task_button">Add Task</button>
                 <button class="section_button">Add Section</button>
             </div>
 
         <hr>
-
-        <div class="to_do_list">
+<!-- Qui inizia la prima sezione dedicata agli appunatenti. -->
             <div class="list_section">
                 <h2>New Task</h2>
                 <ul>
-                    <li>&check; Quarterly Newsletter <button class="task_button">Editional</button></li>
+                    <li>&check; Quarterly Newsletter <button class="button blu_button">Editional</button></li>
                 </ul> 
             </div>                      
                
+<!-- Qui inizia la seconda sezione dedicata agli appuntamenti. -->
             <div class="list_section">
                 <h2>Today</h2>
                 <ul>
-                    <li>&check; Recruiting Blog Post <button class="task_button">Editional</button></li>
-                    <li>&check; Mobile app Luaunch <button class="purple_button">Q1 Goals</button></li>
-                    <li>&otimes; Interview John H. <button class="task_button">Editional</button></li>
-                    <li>&check; Summit Update to mobile storefronts <button class="purple_button">Q1 Goals</button></li>
+                    <li>&check; Recruiting Blog Post <button class=" button blu_button">Editional</button></li>
+                    <li>&check; Mobile app Luaunch <button class="button purple_button">Q1 Goals</button></li>
+                    <li>&otimes; Interview John H. <button class="button green_button">Recruiting</button></li>
+                    <li>&check; Summit Update to mobile storefronts <button class="orange_button">Mobile</button></li>
                 </ul>
             </div>
 
+<!-- Qui inizia la terza e ultima sezione dedicata agli appuntamenti.             -->
             <div class="list_section">
-                <h2>Today</h2>
+                <h2>Upcoming</h2>
                 <ul>
-                    <li>&otimes;  Schedule meeting with Alex <button class="task_button">Editional</button></li>
-                    <li>&check; Home Page Refresh<button class="purple_button">Q1 Goals</button></li>
-                    <li>&check; Onboard new Sales team members <button class="task_button">Editional</button></li>
+                    <li>&otimes;  Schedule meeting with Alex</li>
+                    <li>&check; Home Page Refresh<button class="pink_button">Q1 Goals</button></li>
+                    <li>&check; Onboard new Sales team members <button class="lime_button">Editional</button></li>
                     <li>&check; Review editorial calrndar<button class="purple_button">Q1 Goals</button></li>
                 </ul>
             </div>
-            </div>
         </div>
+
     </main>
 
 </body>
